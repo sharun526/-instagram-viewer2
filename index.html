@@ -1,14 +1,30 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>insta id</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram IDs — Live List</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h1>insta id</h1>
-<p>id show case</p>
+
+<header>
+    <h1>Instagram IDs — Live List</h1>
+    <button id="openAdmin" class="btn-admin">Admin Panel</button>
+</header>
+
+<p class="subtitle">Tap a username to open the profile in Instagram</p>
+
+<ul id="currentList" class="list"></ul>
+
+<div id="adminPanel" class="admin-box">
+    <form id="addForm">
+        <input id="newId" type="text" placeholder="Enter Instagram ID">
+        <button type="submit" class="add-btn">Add</button>
+    </form>
+</div>
+
 <script src="app.js"></script>
 </body>
 </html>
